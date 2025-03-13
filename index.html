@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translate Text or Speech</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Translate Text or Speech</h1>
+    <textarea id="textInput" placeholder="Enter text to translate" rows="4" cols="50"></textarea><br>
+    <div id="icons">
+      <i class="fas fa-microphone icon" id="startSpeechIcon"></i>
+      <i class="fas fa-volume-up icon" id="speakIcon"></i>
+    </div>
+    <label for="sourceLanguageSelect">Select Source Language: </label>
+    <select id="sourceLanguageSelect"></select><br>
+    <label for="targetLanguageSelect">Select Target Language: </label><br>
+    <select id="targetLanguageSelect"></select><br>
+    <button class="button" id="translateButton">Translate</button>
+    <h2>Translated Text</h2>
+    <p id="translatedText"></p>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
