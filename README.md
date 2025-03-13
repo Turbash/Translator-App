@@ -53,7 +53,7 @@ A web application for translating text and speech between various languages usin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/translator-web-app.git
+   git clone https://github.com/Turbash/Translator-App.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -73,10 +73,6 @@ A web application for translating text and speech between various languages usin
 - `styles.css`: CSS file for styling.
 - `script.js`: JavaScript file for logic.
 - `languages.js`: Supported languages.
-
-## Example
-
-![Translator Web App](screenshot.png)
 
 ## License
 
